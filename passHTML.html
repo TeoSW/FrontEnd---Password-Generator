@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="passCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>RANDOM</h1>
+        <h2>PASSWORD GENERATOR</h2>
+    </div>
+    
+<div id="inputContainer">
+    <button id="randomGeneratorButton" onclick="renderPassword()">Generate a random password</button>
+    <input min="6" max="30" placeholder="Enter the number of characters" id="numberOfCharacters">
+</div>
+
+<p id="passwdList">Password list:</p>
+<p id="errorPar"></p>
+<div id="listContainer1">
+        <div id="passList1"></div>
+        <div id="passList2"></div>
+</div>
+<div id="listContainer2">
+        <div id="passList3"></div>
+        <div id="passList4"></div>
+</div>
+
+<script src="passJS.js"></script>
+</body>
+</html>
